@@ -1,0 +1,11 @@
+@import 'variables';
+
+.error {
+  border: 1px solid $rouge;
+  border-radius: $default-radius;
+  color: $rouge;
+  font-size: 15px;
+  line-height: $gutter;
+  margin-bottom: $gutter;
+  padding: $gutter;
+}

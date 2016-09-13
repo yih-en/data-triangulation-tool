@@ -1,0 +1,12 @@
+{
+  "name": "test failure",
+  "logics": [
+    {
+      "connection_name": "second_database",
+      "name": "test",
+      "query": "select * from staging_order",
+      "logic_type": "sql"
+    }
+  ],
+  "id": "test-failure"
+}

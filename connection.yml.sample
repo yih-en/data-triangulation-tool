@@ -1,0 +1,43 @@
+first_database:
+  development:
+    host:
+    username:
+    password:
+    database:
+  production:
+    host:
+    username:
+    password:
+    database:
+  test:
+    host: localhost
+    database:
+    username:
+second_database:
+  development:
+    host: localhost
+    database:
+    username:
+  production:
+    host:
+    username:
+    password:
+    database:
+  test:
+    host: localhost
+    database:
+    username:
+third_database:
+  development:
+    host:
+    database:
+    username:
+  production:
+    host:
+    username:
+    password:
+    database:
+  test:
+    host:
+    database:
+    username:

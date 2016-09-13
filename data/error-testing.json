@@ -1,0 +1,10 @@
+{
+  "name": "Error Testing",
+  "logics": [
+    {
+      "name": "test",
+      "logic_type": "sql"
+    }
+  ],
+  "id": "error-testing"
+}

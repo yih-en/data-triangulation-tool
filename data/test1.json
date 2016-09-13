@@ -1,0 +1,11 @@
+{
+  "name": "test1",
+  "logics": [
+    {
+      "name": "test",
+      "query": "select 1 as 1",
+      "logic_type": "sql"
+    }
+  ],
+  "id": "test1"
+}

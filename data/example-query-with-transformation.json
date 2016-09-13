@@ -1,0 +1,30 @@
+{
+  "name": "Example Query with Transformation",
+  "logics": [
+    {
+      "connection_name": "first_database",
+      "name": "orders",
+      "description": "test",
+      "query": "select * from staging_order limit 5",
+      "logic_type": "sql"
+    },
+    {
+      "name": "order_ids",
+      "logic_type": "transformation",
+      "transform": "$orders|pluck:order_id"
+    },
+    {
+      "connection_name": "first_database",
+      "name": "lala",
+      "query": "select * from staging_order where order_id in ([$order_ids|join:,])",
+      "logic_type": "sql"
+    },
+    {
+      "connection_name": "first_database",
+      "name": "meme",
+      "query": "select '[$order_ids|join:,]' as llll",
+      "logic_type": "sql"
+    }
+  ],
+  "id": "example-query-with-transformation"
+}

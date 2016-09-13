@@ -1,0 +1,15 @@
+{
+  "name": "Example Initial Data",
+  "initial_data": "{\"date_key\": 20150117}",
+  "logics": [
+    {
+      "type": "transformation",
+      "connection_name": "first_database",
+      "name": "query",
+      "query": "select * from fact_order where date_key = [$date_key]",
+      "logic_type": "sql",
+      "transform": ""
+    }
+  ],
+  "id": "example-initial-data"
+}

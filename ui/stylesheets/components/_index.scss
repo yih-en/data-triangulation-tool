@@ -1,0 +1,75 @@
+@import 'variables';
+
+.query-tools {
+  background: $white;
+  font-family: $default-font-family;
+
+  button {
+    margin: 0 #{$gutter-xxsmall} 0 0;
+  }
+}
+
+.container {
+  margin: auto 0;
+  padding: 50px $gutter;
+}
+
+.pull-right {
+  float: right;
+}
+
+.success {
+  border: 1px solid $mint;
+  border-radius: $default-radius;
+  color: $mint;
+  padding: $gutter;
+}
+
+.header {
+  background: #222;
+  color: $alabaster;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 0 30px;
+  position: absolute;
+  height: 45px;
+  width: 100%;
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
+
+  h2 {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 900;
+    letter-spacing: 1px;
+  }
+
+  .button-query {
+    display: inline-block;
+    margin: 0 $gutter;
+  }
+}
+
+.link {
+  font-size: 15px;
+  margin-bottom: $gutter-xxsmall;
+
+  &:hover {
+    cursor: pointer;
+    color: $rouge;
+  }
+}
+
+table {
+  font-size: 13px;
+  font-family: $table-font-family;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+  padding: $gutter-xxsmall;
+}

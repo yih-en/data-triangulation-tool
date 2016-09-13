@@ -1,0 +1,45 @@
+@import 'variables';
+
+form {
+  font-size: 15px;
+}
+
+input {
+  border: 1px solid $silver;
+  border-radius: 3px;
+  padding: 7px;
+  outline: 0;
+
+  &:focus {
+    border: 1px solid #0C0;
+  }
+}
+
+label {
+  margin-right: $gutter-xsmall;
+}
+
+.outer-form {
+  margin-bottom: $gutter-xsmall;
+}
+
+.inline-form {
+  display: inline-block;
+  margin-right: $gutter-xsmall;
+}
+
+.editor {
+  margin: $gutter-xsmall 0;
+}
+
+.query-form {
+  border: 1px solid black;
+  border-radius: 3px;
+  padding: $gutter-xsmall;
+  margin: $gutter-xsmall 0;
+  overflow: auto;
+}
+
+.form-input {
+  margin-top: $gutter-xxsmall;
+}

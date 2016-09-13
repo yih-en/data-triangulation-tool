@@ -1,0 +1,114 @@
+.container {
+  margin: 20px;
+}
+
+.inner-container {
+  margin: 20px 0;
+}
+
+textarea {
+  width: 90%;
+  height: 260px;
+  font-family: monospace;
+  border: 1px solid #ddd;
+  margin: 30px;
+}
+
+html {
+  font-family: "Helvetica Neue";
+  font-size: 12px;
+}
+
+.description {
+  margin: 30px 10px;
+  padding: 6px;
+  font-weight: bold;
+  color: white;
+  background-color: #332233;
+  font-size: 15px;
+  letter-spacing: 1px;
+  overflow: hidden;
+}
+
+.dg-container {
+  width: 100%;
+  overflow-x: scroll;
+}
+
+.record-size, .source {
+  font-size: 20px;
+  margin: 10px;
+}
+
+body {
+  margin: 0px;
+  background-color: #eee;
+}
+
+.datagrid {
+  font-size: 12px;
+  margin: 3px;
+  border-collapse: collapse;
+}
+
+.datagrid td {
+  padding: 10px;
+  background-color: #fafafa;
+  border: 1px solid #999;
+}
+
+.datagrid th {
+  padding: 10px;
+  background-color: #ddd;
+  color: black;
+  border: 1px solid #999;
+}
+
+label, h2 {
+  margin: 15px;
+  font-weight: bold;
+}
+
+label {
+  font-size: 15px;
+}
+
+button, .button {
+  border: 1px solid black;
+  background-color: #12f382;
+  padding: 3px 15px;
+  letter-spacing: 2px;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.secondary {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.mb {
+  margin: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+.editable button {
+  display: inline-block;
+}

@@ -1,0 +1,13 @@
+{
+  "name": "test initial data",
+  "initial_data": "test",
+  "logics": [
+    {
+      "connection_name": "first_database",
+      "name": "query",
+      "query": "select * from staging_order where",
+      "logic_type": "sql"
+    }
+  ],
+  "id": "test-initial-data"
+}
